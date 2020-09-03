@@ -1,0 +1,21 @@
+# Plataform
+#default: -p html_report -p json_report -p chrome
+#api_log: -p http_log -p api
+# Reports
+#json_report: --format pretty --format json --out=report/rubocop.html.json
+# Logs
+#http_log: HTTP_LOG=true
+
+# Browsers
+#firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+#internet_explorer: BROWSER=internet_explorer
+
+default: -p html -p bdd -p json
+html: --format html --out=features.html
+dot: --format progress
+bdd: --format pretty
+json: --format json -o "report.json"
+
+# Mensagem do Cucumber.
+default: --publish-quiet

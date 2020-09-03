@@ -1,0 +1,11 @@
+-
+  userCadastroLogin: "Anakin Skywalker"
+  passWordLogin: "DarthVader"
+-
+  nomeCadastro: "Anakin Skywalker"
+  cpfCadastro: "481.053.758-77"
+  dataAdmissãoCadastro: "01/01/1977" 
+  cargaCadastro: "Cavaleiro Sith"
+  salarioCadastro: "18000"
+  new_salario: "20000"
+

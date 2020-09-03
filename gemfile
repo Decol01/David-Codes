@@ -1,0 +1,8 @@
+source 'http://rubygems.org'
+
+gem 'cucumber'
+gem 'rspec'
+gem 'selenium-webdriver'
+gem 'site_prism'
+gem 'capybara'
+gem 'report_builder'
